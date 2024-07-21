@@ -39,3 +39,28 @@
 .p-1{
     padding: 10px;
 }
+
+/* For Firefox */
+html {
+    scrollbar-width: thin; /* Can be 'auto', 'thin', or 'none' */
+    scrollbar-color: #555 #333; /* Thumb color and track color */
+}
+
+
+/* For Chrome, Safari, and Opera */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #333; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555; /* Thumb color */
+    border-radius: 6px; /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #777; /* Thumb color on hover */
+}
